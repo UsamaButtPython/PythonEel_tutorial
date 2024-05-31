@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Video Streaming Demonstration</h1>
+    <img id="bg" src="" alt="">
+
+<button class="Start" >Start feed</button>
+<button onclick="GetFilterValue(0)">Start Normal</button>
+<button onclick="GetFilterValue(1)">Start greyscale</button>
+<button onclick="GetFilterValue(2)">Start cannyedge</button>
+<button onclick="GetFilterValue(3)">Start hsv</button>
+<button onclick="GetFilterValue(4)">Start gaussianblur</button>
+<button onclick="logout()">Test Route</button>
+{% endblock %}

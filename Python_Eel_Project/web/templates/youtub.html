@@ -1,0 +1,205 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="styles/index.css" />
+    <link href="https://vjs.zencdn.net/7.20.2/video-js.css" rel="stylesheet" />
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+      <header class="header">
+        <div class="logo left">
+          <i id="menu" class="material-icons">menu</i>
+          <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+        </div>
+        
+        <div class="search center">
+          <form action="">
+            <input type="text" placeholder="Search" />
+            <button><i class="material-icons">search</i></button>
+          </form>
+          <i class="material-icons mic">mic</i>
+        </div>
+        
+        <div class="icons right">
+          <i class="material-icons">videocam</i>
+          <i class="material-icons">apps</i>
+          <i class="material-icons">notifications</i>
+          <i class="material-icons display-this">account_circle</i>
+        </div>
+       </header>
+       <br>
+      <main>
+          <div class="side-bar">
+            <div class=”side-bar”>
+                <div class="nav">
+                  <a class="nav-link active">
+                     <i class="material-icons">home</i>
+                     <span>Home</span>
+                  </a>
+                  <a class="nav-link">
+                     <i class="material-icons">local_fire_department</i>
+                     <span>Trending</span>
+                  </a>
+                  <a class="nav-link">
+                     <i class="material-icons">subscriptions</i>
+                     <span>Subscriptions</span>
+                  </a>
+                </div>
+                <hr>
+                <a class="nav-link">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                 </a>
+                 <a class="nav-link">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                 </a>
+                 <a class="nav-link">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                 </a>
+                 <a class="nav-link">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                 </a>
+                 <a class="nav-link">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                 </a>
+                </div>
+          </div>
+          <br>
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            width="5040"
+            height="564"
+            poster="MY_VIDEO_POSTER.jpg"
+            data-setup="{}"
+          >
+            <source src="Invoice_issue.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+          <div class="content">
+          
+        
+        
+               <div class="videos">
+                <!-- a video starts -->
+                  <div class="video">
+                     <div class="thumbnail">
+                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
+                      </div>
+              
+                        <div class="details">
+                           <div class="author">
+                              <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj" alt="" />
+                           </div>
+                           <div class="title">
+                              <h3>
+                                  Introverts & Content Creation | Sumudu Siriwardana
+                               </h3>
+                               <a href="">
+                                      Francesco Ciulla
+                                </a>
+                                <span> 2M Views • 3 Months Ago </span>
+                           </div>
+                         </div>
+              
+                       </div>
+                 <!-- a video Ends -->
+                 <!-- a video starts -->
+                 <div class="video">
+                    <div class="thumbnail">
+                       <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
+                     </div>
+             
+                       <div class="details">
+                          <div class="author">
+                             <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj" alt="" />
+                          </div>
+                          <div class="title">
+                             <h3>
+                                 Introverts & Content Creation | Sumudu Siriwardana
+                              </h3>
+                              <a href="">
+                                     Francesco Ciulla
+                               </a>
+                               <span> 2M Views • 3 Months Ago </span>
+                          </div>
+                        </div>
+             
+                      </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                       <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
+                     </div>
+             
+                       <div class="details">
+                          <div class="author">
+                             <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj" alt="" />
+                          </div>
+                          <div class="title">
+                             <h3>
+                                 Introverts & Content Creation | Sumudu Siriwardana
+                              </h3>
+                              <a href="">
+                                     Francesco Ciulla
+                               </a>
+                               <span> 2M Views • 3 Months Ago </span>
+                          </div>
+                        </div>
+             
+                      </div>
+                <!-- a video Ends -->
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                       <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
+                     </div>
+             
+                       <div class="details">
+                          <div class="author">
+                             <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj" alt="" />
+                          </div>
+                          <div class="title">
+                             <h3>
+                                 Introverts & Content Creation | Sumudu Siriwardana
+                              </h3>
+                              <a href="">
+                                     Francesco Ciulla
+                               </a>
+                               <span> 2M Views • 3 Months Ago </span>
+                          </div>
+                        </div>
+             
+                      </div>
+                <!-- a video Ends -->
+          </div>
+      </main>
+  <!-- Main Body Ends -->
+  <script src="https://vjs.zencdn.net/7.20.2/video.min.js"></script>
+
+
+</body>
+</html>
